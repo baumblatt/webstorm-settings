@@ -1,0 +1,25 @@
+<application>
+  <component name="ScratchConfig">
+    <option name="defaultScratchMeaning" value="TOPMOST" />
+    <option name="fullScratchNamesOrdered">
+      <list>
+        <option value="race.ts" />
+        <option value="cloudant.txt" />
+        <option value="premmia-run.txt" />
+        <option value="visa-checkout.js" />
+        <option value="NG Conference.txt" />
+        <option value="proguard-project-mfp.txt" />
+        <option value="Preparing iOS apps for App Store submission.txt" />
+        <option value="scratch.xml" />
+        <option value="scratch.json" />
+        <option value="scratch.js" />
+        <option value="scratch.css" />
+        <option value="publicação-1.2.0.txt" />
+        <option value="Assinatura de Aplicações Android.txt" />
+        <option value="reviews-ios.json" />
+      </list>
+    </option>
+    <option name="lastOpenedScratch" value="Assinatura de Aplicações Android.txt" />
+    <option name="scratchesFolderPath" value="$APPLICATION_CONFIG_DIR$/scratches" />
+  </component>
+</application>

@@ -1,0 +1,12 @@
+<application>
+  <component name="DBNavigator.Application.Settings">
+    <enable-debug-mode value="false" />
+    <enable-developer-mode value="false" />
+    <show-plugin-conflict-dialog value="false" />
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/local/bin/node">
+      <version-cache version="8.11.1" last-modified="1522364787000" />
+    </local-interpreter>
+  </component>
+</application>
