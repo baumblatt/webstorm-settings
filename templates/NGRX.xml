@@ -1,0 +1,71 @@
+<templateSet group="NGRX">
+  <template name="nxr" value="import { $Segment$Action } from '../actions/$import$.action';&#10;&#10;export interface $Segment$State {&#10; &#10;}&#10;&#10;export const initialState: $Segment$State = {&#10;};&#10;&#10;export function $segment$Reducer(state = initialState, action: $Segment$Action): $Segment$State {&#10; &#10;&#9;switch (action.type) {&#10;&#9;&#9;$END$&#10;&#10;&#9;&#9;default: {&#10;&#9;&#9;&#9;return state;&#10;&#9;&#9;}&#10;&#9;}&#10;}&#10;" description="create a new ngrx/store reducer" toReformat="true" toShortenFQNames="true">
+    <variable name="Segment" expression="" defaultValue="'Segment'" alwaysStopAt="true" />
+    <variable name="import" expression="lowercaseAndDash(Segment)" defaultValue="" alwaysStopAt="true" />
+    <variable name="segment" expression="camelCase(Segment)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="nxa" value="export const $ACTION$ = &quot;[$ACRONYM$] $ACTION$&quot;;&#10;&#10;export class $ActionName$ implements Action {&#10;&#9;readonly type = $ACTION$;&#10;&#10;&#9;constructor(public payload: any) {&#10;&#9;}&#10;}&#10;" description="create a new ngrx/store action" toReformat="true" toShortenFQNames="true">
+    <variable name="ACTION" expression="capitalize(ACTION)" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACRONYM" expression="snakeCase(ACRONYM)" defaultValue="" alwaysStopAt="true" />
+    <variable name="ActionName" expression="capitalize(underscoresToCamelCase(ACTION))" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="nxrc" value="case $ACTION$: {&#10;&#9;const $payload$ = action.payload;&#10;&#10;&#9;return {&#10;&#9;&#9;...state,&#10;&#9;&#9;$payload$&#10;&#9;};&#10;}" description="create a new case on reducer for ngrx/store" toReformat="false" toShortenFQNames="true">
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="payload" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="nxes" value="import {Injectable} from '@angular/core';&#10;import {Actions} from '@ngrx/effects';&#10;&#10;@Injectable()&#10;export class $Segment$Effects {&#10;&#10;&#9;constructor(private actions$: Actions) {&#10;&#9;}&#10;&#10;&#9;$END$&#10;&#10;}" description="create a new ngrx/store effects injectable service" toReformat="false" toShortenFQNames="true">
+    <variable name="Segment" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="nxe" value="@Effect()&#10;$action$$ = this.actions$.pipe(&#10;    ofType($ACTION$),&#10;    pluck('payload'),&#10;    map(() =&gt; new $ActionClass$()),&#10;);" description="create a new ngrx/store effect in a effects service." toReformat="false" toShortenFQNames="true">
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ActionClass" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="action" expression="underscoresToCamelCase(ACTION)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="nxesf" value="@Effect()&#10;$action$$ = this.actions$.pipe(&#10;    ofType($ACTION$),&#10;    pluck('payload'),&#10;    switchMap((payload) =&gt; this.$service$.$method$(payload).pipe(&#10;        map((result) =&gt; new $Action$Success(result)),&#10;        catchError((error) =&gt; of(new $Action$Fail(error))),&#10;    )),&#10;);&#10;&#10;&#9;&#10;@Effect()&#10;$action$Success$ = this.actions$.pipe(&#10;    ofType($ACTION$_SUCCESS),&#10;    pluck('payload'),&#10;    trackEvent&lt;any&gt;('$category$', 'submit', 'sucesso'),&#10;    map(() =&gt; new ShowSnackBar({&#10;        mensagem: '$msg_success$',&#10;        config: {duration: 6000, extraClasses: ['mat-snack-bar-primary']}&#10;    })),&#10;);&#10;&#10;@Effect()&#10;$action$Fail$ = this.actions$.pipe(&#10;    ofType($ACTION$_FAIL),&#10;    pluck('payload'),&#10;    trackEvent&lt;any&gt;('$category$', 'submit', 'falha'),&#10;    map(() =&gt; new ShowSnackBar({&#10;        mensagem: '$msg_fail$',&#10;        config: {duration: 6000, extraClasses: ['mat-snack-bar-warn']}&#10;    })),&#10;);" description="create a new ngrx/store effect in a effects service." toReformat="false" toShortenFQNames="true">
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="action" expression="underscoresToCamelCase(ACTION)" defaultValue="" alwaysStopAt="false" />
+    <variable name="Action" expression="capitalize(action)" defaultValue="" alwaysStopAt="false" />
+    <variable name="service" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="category" expression="spaceSeparated(classNameComplete(action))" defaultValue="" alwaysStopAt="false" />
+    <variable name="msg_success" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="msg_fail" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="nxasf" value="export const $ACTION$ = '[$ACRONYM$] $description$.';&#10;export const $ACTION$_SUCCESS = '[$ACRONYM$] $description$ (Success).';&#10;export const $ACTION$_FAIL = '[$ACRONYM$] $description$ (Fail).';&#10;&#10;export class $ActionName$ implements Action {&#10;&#9;readonly type = $ACTION$;&#10;&#10;&#9;constructor(public payload: any) {&#10;&#9;}&#10;}&#10;&#10;export class $ActionName$Success implements Action {&#10;&#9;readonly type = $ACTION$_SUCCESS;&#10;&#10;&#9;constructor(public payload: any) {&#10;&#9;}&#10;}&#10;&#10;export class $ActionName$Fail implements Action {&#10;&#9;readonly type = $ACTION$_FAIL;&#10;&#10;&#9;constructor(public payload: any) {&#10;&#9;}&#10;}" description="create a new ngrx/store triple action" toReformat="true" toShortenFQNames="true">
+    <variable name="ACTION" expression="capitalize(ACTION)" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACRONYM" expression="snakeCase(ACRONYM)" defaultValue="" alwaysStopAt="true" />
+    <variable name="description" expression="ACTION" defaultValue="" alwaysStopAt="true" />
+    <variable name="ActionName" expression="capitalize(underscoresToCamelCase(ACTION))" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="nxao" value="export const OBSERVE_$SUBJECT$_SUBSCRIBE = '[$ACRONYM$] Observe $subject$ (Subscribe).';&#10;export const OBSERVE_$SUBJECT$_NEXT = '[$ACRONYM$] Observe $subject$ (Next).';&#10;export const OBSERVE_$SUBJECT$_ERROR = '[$ACRONYM$] Observe $subject$ (Error).';&#10;export const OBSERVE_$SUBJECT$_UNSUBSCRIBE = '[$ACRONYM$] Observe $subject$ (Unsubscribe).';&#10;&#10;export class Observe$Subject$Subscribe implements Action {&#10;&#9;readonly type = OBSERVE_$SUBJECT$_SUBSCRIBE;&#10;}&#10;&#10;export class Observe$Subject$Next implements Action {&#10;&#9;readonly type = OBSERVE_$SUBJECT$_NEXT;&#10;&#10;&#9;constructor(public payload: any) {&#10;&#9;}&#10;}&#10;&#10;export class Observe$Subject$Error implements Action {&#10;&#9;readonly type = OBSERVE_$SUBJECT$_ERROR;&#10;&#10;&#9;constructor(public payload: any) {&#10;&#9;}&#10;}&#10;&#10;export class Observe$Subject$Unsubscribe implements Action {&#10;&#9;readonly type = OBSERVE_$SUBJECT$_UNSUBSCRIBE;&#10;}" description="create a new ngrx/store group of observable actions" toReformat="true" toShortenFQNames="true">
+    <variable name="SUBJECT" expression="capitalize(SUBJECT)" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACRONYM" expression="snakeCase(ACRONYM)" defaultValue="" alwaysStopAt="true" />
+    <variable name="subject" expression="Subject" defaultValue="" alwaysStopAt="true" />
+    <variable name="Subject" expression="capitalize(underscoresToCamelCase(SUBJECT))" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
