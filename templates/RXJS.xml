@@ -5,6 +5,12 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="rxtap2" value="tap($EVENT$ =&gt; console.log($EVENT$))," description="Insert the tap operator projeting to console.log." toReformat="false" toShortenFQNames="true">
+    <variable name="EVENT" expression="" defaultValue="event" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
   <template name="rxtap3" value="tap($EVENT$ =&gt; console.log($EVENT$))," description="Insert the tap operator projeting to console.log." toReformat="false" toShortenFQNames="true">
     <variable name="EVENT" expression="" defaultValue="event" alwaysStopAt="true" />
     <context>
