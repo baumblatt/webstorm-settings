@@ -64,7 +64,8 @@
     <variable name="subject" expression="Subject" defaultValue="" alwaysStopAt="true" />
     <variable name="Subject" expression="capitalize(underscoresToCamelCase(SUBJECT))" defaultValue="" alwaysStopAt="false" />
     <context>
-      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_CLASS" value="true" />
+      <option name="TS_EXPRESSION" value="true" />
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
