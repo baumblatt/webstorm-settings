@@ -46,6 +46,10 @@
           <option name="url" value="http://sbr00xs0089.br.biz/mfpa/postos-adapter.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.ng.bluemix.net" />
+          <option name="userName" value="bernardob@br-petrobras.com.br" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\y6tv\trabalho\projetos" />
