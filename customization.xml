@@ -44,11 +44,25 @@
       <path value="Default" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="ChangesView.AddUnversioned.From.Dialog" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="TouchBarDefaultOptionalGroup" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="ChangesView.AddUnversioned.From.Dialog" is_action="true" action_type="1" position="2">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="MainToolBarSettings" />
       <path value="VCS Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CommittedChanges.Revert" is_action="true" action_type="1" position="2">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="TouchBarDefaultOptionalGroup" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="ChangesView.Revert" is_action="true" action_type="1" position="3">
@@ -58,11 +72,25 @@
       <path value="VCS Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="Diff.ShowDiff" is_action="true" action_type="1" position="3">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="TouchBarDefaultOptionalGroup" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="CheckinProject" is_action="true" action_type="1" position="5">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="MainToolBarSettings" />
       <path value="VCS Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Vcs.Push" is_action="true" action_type="1" position="5">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="TouchBarDefaultOptionalGroup" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="Vcs.Push" is_action="true" action_type="1" position="6">
