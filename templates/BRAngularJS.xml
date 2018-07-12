@@ -1,5 +1,5 @@
 <templateSet group="BRAngularJS">
-  <template name="ngc" value="angular&#10;    .module('$moduleName$')&#10;    .controller('$controllerName$', controller);&#10;&#10;function controller($injectables$) {&#10;    var vm = this;&#10;    &#10;    $END$&#10;}" description="Define a new Angular Controller. You can change the module name, controller name and parameters." toReformat="true" toShortenFQNames="true">
+  <template name="ngc" value="angular&#10;    .module('$moduleName$')&#10;    .controller('$controllerName$', controller);&#10;&#10;function controller($injectables$) {&#10;    var vm = this;&#10;    &#10;    $END$&#10;}" description="Define a new Angular Controller. You can change the module name, controller name and parameters." toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="moduleName" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="controllerName" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
     <variable name="injectables" expression="capitalize(String)" defaultValue="" alwaysStopAt="true" />
@@ -7,7 +7,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ngs" value="angular&#10;    .module('$moduleName$')&#10;    .service('$serviceName$', service);&#10;&#10;function service($injectables$) {&#10;    $END$&#10;}" description="Define a new Angular Service. You can change the module name, service name and parameters." toReformat="true" toShortenFQNames="true">
+  <template name="ngs" value="angular&#10;    .module('$moduleName$')&#10;    .service('$serviceName$', service);&#10;&#10;function service($injectables$) {&#10;    $END$&#10;}" description="Define a new Angular Service. You can change the module name, service name and parameters." toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="moduleName" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="serviceName" expression="camelCase(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
     <variable name="injectables" expression="" defaultValue="" alwaysStopAt="true" />
@@ -15,7 +15,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="dlg-alert" value="dialogService.alert({&#10;    title: '$title$',&#10;    titleBgm: 'bgm-$color$',&#10;    subtitle: '$subtitle$',&#10;    mainMessage: '$mainMessage$',&#10;    messages: ['$messages$'],&#10;    okButtonLabel: '$okButtonLabel$',&#10;    okButtonFunc: function() {&#10;        $END$&#10;        return $q.resolve();&#10;    }&#10;});&#10;" description="Create a alert dialog. You can change title, message behaivor and more." toReformat="true" toShortenFQNames="true">
+  <template name="dlg-alert" value="dialogService.alert({&#10;    title: '$title$',&#10;    titleBgm: 'bgm-$color$',&#10;    subtitle: '$subtitle$',&#10;    mainMessage: '$mainMessage$',&#10;    messages: ['$messages$'],&#10;    okButtonLabel: '$okButtonLabel$',&#10;    okButtonFunc: function() {&#10;        $END$&#10;        return $q.resolve();&#10;    }&#10;});&#10;" description="Create a alert dialog. You can change title, message behaivor and more." toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="title" expression="" defaultValue="Título" alwaysStopAt="true" />
     <variable name="color" expression="" defaultValue="green" alwaysStopAt="true" />
     <variable name="subtitle" expression="" defaultValue="Subtitulo da dialogo de confirmação" alwaysStopAt="true" />
@@ -26,7 +26,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="dlg-confirm" value="dialogService.confirm({&#10;    title: '$title$',&#10;    titleBgm: 'bgm-$color$',&#10;    subtitle: '$subtitle$',&#10;    mainMessage: '$mainMessage$',&#10;    messages: ['$messages$'],&#10;    okButtonLabel: '$okButtonLabel$',&#10;    cancelButtonLabel: '$cancelButtonLabel$',&#10;    okButtonFunc: function() {&#10;        $END$&#10;        return $q.resolve();&#10;    },&#10;    cancelButtonFunc: function() {&#10;        return $q.resolve();&#10;    } &#10;});&#10;" shortcut="TAB" description="Create a confirm dialog. You can change title, message behaivor and more." toReformat="true" toShortenFQNames="true">
+  <template name="dlg-confirm" value="dialogService.confirm({&#10;    title: '$title$',&#10;    titleBgm: 'bgm-$color$',&#10;    subtitle: '$subtitle$',&#10;    mainMessage: '$mainMessage$',&#10;    messages: ['$messages$'],&#10;    okButtonLabel: '$okButtonLabel$',&#10;    cancelButtonLabel: '$cancelButtonLabel$',&#10;    okButtonFunc: function() {&#10;        $END$&#10;        return $q.resolve();&#10;    },&#10;    cancelButtonFunc: function() {&#10;        return $q.resolve();&#10;    } &#10;});&#10;" shortcut="TAB" description="Create a confirm dialog. You can change title, message behaivor and more." toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="title" expression="" defaultValue="Título" alwaysStopAt="true" />
     <variable name="color" expression="" defaultValue="green" alwaysStopAt="true" />
     <variable name="subtitle" expression="" defaultValue="Subtitulo da dialogo de confirmação" alwaysStopAt="true" />
@@ -38,22 +38,22 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="$to" value="$timeout(function() {&#10;    $END$&#10;});" description="(Define a $timeout expression. You can implement the postdone function)" toReformat="true" toShortenFQNames="true">
+  <template name="$to" value="$timeout(function() {&#10;    $END$&#10;});" description="(Define a $timeout expression. You can implement the postdone function)" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ifMF" value="// verifica a existência do contexto Mobile First&#10;if(typeof WL !== &quot;undefined&quot; &amp;&amp; WL !== null) {&#10;    $END$&#10;}" description="Create a conditional for Mobile First conext." toReformat="true" toShortenFQNames="true">
+  <template name="ifMF" value="// verifica a existência do contexto Mobile First&#10;if(typeof WL !== &quot;undefined&quot; &amp;&amp; WL !== null) {&#10;    $END$&#10;}" description="Create a conditional for Mobile First conext." toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="$qm" value="// cria a promessa&#10;var deferred = $q.defer();&#10;&#10;// resolve a promessa&#10;deferred.resolve();&#10;&#10;// retorna a promessa&#10;return deferred.promise;&#10;" description="Create a promess method template that declare, resolve and return the promess." toReformat="true" toShortenFQNames="true">
+  <template name="$qm" value="// cria a promessa&#10;var deferred = $q.defer();&#10;&#10;// resolve a promessa&#10;deferred.resolve();&#10;&#10;// retorna a promessa&#10;return deferred.promise;&#10;" description="Create a promess method template that declare, resolve and return the promess." toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="$qmMF" value="// cria a promessa&#10;var deferred = $q.defer();&#10;&#10;// verifica a existência do contexto Mobile First&#10;if(typeof WL !== &quot;undefined&quot; &amp;&amp; WL !== null) {&#10;    $END$&#10;    // resolve a promessa&#10;    deferred.resolve();&#10;} else {&#10;    // resolve a promessa&#10;    deferred.resolve();&#10;}&#10;&#10;// retorna a promessa&#10;return deferred.promise;&#10;" description="Create a promess method template that declare, resolve and return the promess with Mobile First context test." toReformat="true" toShortenFQNames="true">
+  <template name="$qmMF" value="// cria a promessa&#10;var deferred = $q.defer();&#10;&#10;// verifica a existência do contexto Mobile First&#10;if(typeof WL !== &quot;undefined&quot; &amp;&amp; WL !== null) {&#10;    $END$&#10;    // resolve a promessa&#10;    deferred.resolve();&#10;} else {&#10;    // resolve a promessa&#10;    deferred.resolve();&#10;}&#10;&#10;// retorna a promessa&#10;return deferred.promise;&#10;" description="Create a promess method template that declare, resolve and return the promess with Mobile First context test." toReformat="true" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
