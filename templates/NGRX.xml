@@ -69,4 +69,14 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="nxega" value="@Effect({dispatch: false})&#10;$action$$ = this.actions$.pipe(&#10;    ofType($ACTION$),&#10;    trackEvent('$Category$', '$Action$', '$Label$')&#10;);" description="create a new ngrx/store effect that track an event in google analytics." toReformat="false" toShortenFQNames="true">
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="action" expression="underscoresToCamelCase(ACTION)" defaultValue="" alwaysStopAt="false" />
+    <variable name="Category" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Action" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
