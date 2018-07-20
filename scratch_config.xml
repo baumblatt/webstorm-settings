@@ -17,9 +17,10 @@
         <option value="proguard-project-mfp.txt" />
         <option value="Assinatura de Aplicações Android.txt" />
         <option value="Preparing iOS apps for App Store submission.txt" />
+        <option value="scratch.csv" />
       </list>
     </option>
-    <option name="lastOpenedScratch" value="premmia-run.txt" />
+    <option name="lastOpenedScratch" value="scratch.js" />
     <option name="scratchesFolderPath" value="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
 </application>
