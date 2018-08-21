@@ -58,6 +58,10 @@
           <option name="url" value="http://sbr00xs0089.br.biz/mfp/oracle-premmia-adapter.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://sbr00xs0089.br.biz" />
+          <option name="userName" value="zrmu" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Mobilidade" />
