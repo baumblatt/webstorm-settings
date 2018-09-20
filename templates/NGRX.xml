@@ -61,8 +61,8 @@
   <template name="nxao" value="export const OBSERVE_$SUBJECT$_SUBSCRIBE = '[$ACRONYM$] Observe $subject$ (Subscribe).';&#10;export const OBSERVE_$SUBJECT$_NEXT = '[$ACRONYM$] Observe $subject$ (Next).';&#10;export const OBSERVE_$SUBJECT$_ERROR = '[$ACRONYM$] Observe $subject$ (Error).';&#10;export const OBSERVE_$SUBJECT$_UNSUBSCRIBE = '[$ACRONYM$] Observe $subject$ (Unsubscribe).';&#10;&#10;export class Observe$Subject$Subscribe implements Action {&#10;&#9;readonly type = OBSERVE_$SUBJECT$_SUBSCRIBE;&#10;}&#10;&#10;export class Observe$Subject$Next implements Action {&#10;&#9;readonly type = OBSERVE_$SUBJECT$_NEXT;&#10;&#10;&#9;constructor(public payload: any) {&#10;&#9;}&#10;}&#10;&#10;export class Observe$Subject$Error implements Action {&#10;&#9;readonly type = OBSERVE_$SUBJECT$_ERROR;&#10;&#10;&#9;constructor(public payload: any) {&#10;&#9;}&#10;}&#10;&#10;export class Observe$Subject$Unsubscribe implements Action {&#10;&#9;readonly type = OBSERVE_$SUBJECT$_UNSUBSCRIBE;&#10;}" description="create a new ngrx/store group of observable actions" toReformat="true" toShortenFQNames="true">
     <variable name="SUBJECT" expression="capitalize(SUBJECT)" defaultValue="" alwaysStopAt="true" />
     <variable name="ACRONYM" expression="snakeCase(ACRONYM)" defaultValue="" alwaysStopAt="true" />
-    <variable name="subject" expression="Subject" defaultValue="" alwaysStopAt="true" />
-    <variable name="Subject" expression="capitalize(underscoresToCamelCase(SUBJECT))" defaultValue="" alwaysStopAt="false" />
+    <variable name="Subject" expression="capitalize(underscoresToCamelCase(SUBJECT))" defaultValue="" alwaysStopAt="true" />
+    <variable name="subject" expression="Subject" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="TS_CLASS" value="true" />
       <option name="TS_EXPRESSION" value="true" />
@@ -75,6 +75,16 @@
     <variable name="Category" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="Action" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="Label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="nxeo" value="@Effect()&#10;observe$Subject$Subscribe$ = this.actions$.pipe(&#10;    ofType(OBSERVE_$SUBJECT$_SUBSCRIBE),&#10;    pluck('payload'),&#10;    switchMap((payload) =&gt; this.$service$.$method$(payload).pipe(&#10;        map(($subject$: $Subject$) =&gt; new Observe$Subject$Next($subject$)),&#10;        catchError((err) =&gt; of(new Observe$Subject$Error(err))),&#10;        takeUntil(this.actions$.pipe(ofType(OBSERVE_$SUBJECT$_UNSUBSCRIBE))),&#10;    )),&#10;);&#10;" description="create a new ngrx/store observable effect in a effects service." toReformat="true" toShortenFQNames="true">
+    <variable name="SUBJECT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="subject" expression="lowercaseAndDash(SUBJECT)" defaultValue="" alwaysStopAt="false" />
+    <variable name="Subject" expression="capitalize(subject)" defaultValue="" alwaysStopAt="false" />
+    <variable name="service" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
