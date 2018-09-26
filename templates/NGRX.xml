@@ -7,7 +7,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="nxa" value="export const $ACTION$ = &quot;[$ACRONYM$] $ACTION$&quot;;&#10;&#10;export class $ActionName$ implements Action {&#10;&#9;readonly type = $ACTION$;&#10;&#10;&#9;constructor(public payload: any) {&#10;&#9;}&#10;}&#10;" description="create a new ngrx/store action" toReformat="true" toShortenFQNames="true">
+  <template name="nxa" value="export const $ACTION$ = '[$ACRONYM$] $ACTION$';&#10;&#10;export class $ActionName$ implements Action {&#10;&#9;readonly type = $ACTION$;&#10;&#10;&#9;constructor(public payload: any) {&#10;&#9;}&#10;}&#10;" description="create a new ngrx/store action" toReformat="true" toShortenFQNames="true">
     <variable name="ACTION" expression="capitalize(ACTION)" defaultValue="" alwaysStopAt="true" />
     <variable name="ACRONYM" expression="snakeCase(ACRONYM)" defaultValue="" alwaysStopAt="true" />
     <variable name="ActionName" expression="capitalize(underscoresToCamelCase(ACTION))" defaultValue="" alwaysStopAt="false" />
