@@ -98,6 +98,14 @@
           <option name="url" value="https://github.com/ghcsantos1978/todo-list-app.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Deniscgaetani/FrontendMobileTodo.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/ghcsantos1978/todo-list-back-end.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/wks" />
