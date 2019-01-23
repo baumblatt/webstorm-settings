@@ -89,4 +89,12 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="nxfr" value="import {ActionReducerMap, createFeatureSelector} from '@ngrx/store';&#10;&#10;export interface $Feature$State {&#10;&#10;}&#10;&#10;export const $feature$Reducers: ActionReducerMap&lt;$Feature$State&gt; = {&#10;&#10;};&#10;&#10;export const get$Feature$State = createFeatureSelector&lt;$Feature$State&gt;(&#10;    '$featureName$'&#10;);&#10;" description="create a new ngrx/store feature reducer." toReformat="true" toShortenFQNames="true">
+    <variable name="Feature" expression="" defaultValue="The feature name" alwaysStopAt="true" />
+    <variable name="feature" expression="camelCase(Feature)" defaultValue="" alwaysStopAt="false" />
+    <variable name="featureName" expression="lowercaseAndDash(Feature)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
