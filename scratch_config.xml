@@ -1,28 +1,6 @@
 <application>
   <component name="ScratchConfig">
     <option name="defaultScratchMeaning" value="TOPMOST" />
-    <option name="fullScratchNamesOrdered">
-      <list>
-        <option value="race.ts" />
-        <option value="scratch.js" />
-        <option value="scratch.css" />
-        <option value="scratch.xml" />
-        <option value="cloudant.txt" />
-        <option value="scratch.json" />
-        <option value="premmia-run.txt" />
-        <option value="reviews-ios.json" />
-        <option value="visa-checkout.js" />
-        <option value="NG Conference.txt" />
-        <option value="publicação-1.2.0.txt" />
-        <option value="proguard-project-mfp.txt" />
-        <option value="Assinatura de Aplicações Android.txt" />
-        <option value="Preparing iOS apps for App Store submission.txt" />
-        <option value="scratch.csv" />
-        <option value="gradle.txt" />
-        <option value="Firebase.md" />
-      </list>
-    </option>
-    <option name="lastOpenedScratch" value="Preparing iOS apps for App Store submission.txt" />
     <option name="scratchesFolderPath" value="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
 </application>
