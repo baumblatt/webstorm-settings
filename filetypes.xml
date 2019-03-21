@@ -1,18 +1,29 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="tps" type="DBN-PSQL" />
-      <mapping ext="tpe" type="DBN-PSQL" />
       <mapping ext="pks" type="DBN-PSQL" />
-      <mapping ext="fnc" type="DBN-PSQL" />
-      <mapping ext="pkg" type="DBN-PSQL" />
-      <mapping ext="pkb" type="DBN-PSQL" />
-      <mapping ext="tpb" type="DBN-PSQL" />
       <mapping ext="prc" type="DBN-PSQL" />
       <mapping ext="trg" type="DBN-PSQL" />
+      <mapping ext="fnc" type="DBN-PSQL" />
+      <mapping ext="tps" type="DBN-PSQL" />
+      <mapping ext="tpe" type="DBN-PSQL" />
+      <mapping ext="tpb" type="DBN-PSQL" />
+      <mapping ext="pkg" type="DBN-PSQL" />
+      <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
-      <mapping pattern="baum" type="TypeScript" />
+      <mapping pattern="gradlew" type="PLAIN_TEXT" />
+      <mapping pattern="Podfile" type="PLAIN_TEXT" />
+      <mapping ext="pbxproj" type="PLAIN_TEXT" />
+      <mapping ext="java" type="PLAIN_TEXT" />
+      <mapping ext="plist" type="PLAIN_TEXT" />
+      <mapping ext="lock" type="PLAIN_TEXT" />
+      <mapping ext="gradle" type="PLAIN_TEXT" />
+      <mapping ext="swift" type="PLAIN_TEXT" />
+      <mapping ext="pro" type="PLAIN_TEXT" />
+      <mapping ext="storyboard" type="PLAIN_TEXT" />
+      <mapping ext="properties" type="PLAIN_TEXT" />
       <mapping pattern="test" type="TypeScript" />
+      <mapping pattern="baum" type="TypeScript" />
     </extensionMap>
   </component>
 </application>
