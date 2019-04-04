@@ -5,4 +5,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="rxtaps" value="tap($EVENT$ =&gt; console.log('$EVENT$', JSON.stringify($EVENT$)))," description="Insert the tap operator projeting to console.log." toReformat="true" toShortenFQNames="true">
+    <variable name="EVENT" expression="" defaultValue="event" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
