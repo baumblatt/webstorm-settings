@@ -3,13 +3,21 @@
     <option name="serverContexts">
       <array>
         <ServerContextState>
+          <option name="type" value="VSO_DEPLOYMENT" />
+          <option name="uri" value="https://app.vssps.visualstudio.com" />
+          <option name="serverUri" value="https://app.vssps.visualstudio.com" />
+          <option name="userId" value="e46f2e50-3162-6ba2-bc12-077b3bf3a84b" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:null,&quot;name&quot;:null,&quot;url&quot;:null}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:null,&quot;name&quot;:null,&quot;revision&quot;:0,&quot;state&quot;:null,&quot;url&quot;:null}" />
+        </ServerContextState>
+        <ServerContextState>
           <option name="type" value="VSO" />
           <option name="uri" value="https://premmia@dev.azure.com/premmia/Petrobras%20Premmia/_git/Petrobras%20Premmia" />
           <option name="serverUri" value="https://dev.azure.com/premmia" />
           <option name="userId" value="e46f2e50-3162-6ba2-bc12-077b3bf3a84b" />
           <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;a2534e9d-7d03-4c7e-b324-6892edff3615&quot;,&quot;name&quot;:&quot;premmia&quot;,&quot;url&quot;:&quot;https://dev.azure.com/premmia/_apis/projectCollections/a2534e9d-7d03-4c7e-b324-6892edff3615&quot;}" />
           <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:&quot;Aplicativo do programa de relacionamento dos postos Petrobras.&quot;,&quot;id&quot;:&quot;e1ed798f-fd0b-4d8b-9a18-7e123200315a&quot;,&quot;name&quot;:&quot;Petrobras Premmia&quot;,&quot;revision&quot;:46,&quot;state&quot;:&quot;WELL_FORMED&quot;,&quot;url&quot;:&quot;https://dev.azure.com/premmia/_apis/projects/e1ed798f-fd0b-4d8b-9a18-7e123200315a&quot;}" />
-          <option name="gitRepository" value="{&quot;defaultBranch&quot;:&quot;refs/heads/master&quot;,&quot;id&quot;:&quot;da2df5de-0852-4a26-a0ad-63ffff6beafa&quot;,&quot;name&quot;:&quot;Petrobras Premmia&quot;,&quot;remoteUrl&quot;:&quot;https://premmia@dev.azure.com/premmia/Petrobras%20Premmia/_git/Petrobras%20Premmia&quot;,&quot;url&quot;:&quot;https://dev.azure.com/premmia/e1ed798f-fd0b-4d8b-9a18-7e123200315a/_apis/git/repositories/da2df5de-0852-4a26-a0ad-63ffff6beafa&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:&quot;Aplicativo do programa de relacionamento dos postos Petrobras.&quot;,&quot;id&quot;:&quot;e1ed798f-fd0b-4d8b-9a18-7e123200315a&quot;,&quot;name&quot;:&quot;Petrobras Premmia&quot;,&quot;revision&quot;:46,&quot;state&quot;:&quot;WELL_FORMED&quot;,&quot;url&quot;:&quot;https://dev.azure.com/premmia/_apis/projects/e1ed798f-fd0b-4d8b-9a18-7e123200315a&quot;}}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:&quot;refs/heads/master&quot;,&quot;id&quot;:&quot;da2df5de-0852-4a26-a0ad-63ffff6beafa&quot;,&quot;name&quot;:&quot;Petrobras Premmia&quot;,&quot;remoteUrl&quot;:&quot;https://premmia@dev.azure.com/premmia/Petrobras%20Premmia/_git/Petrobras%20Premmia&quot;,&quot;url&quot;:&quot;https://dev.azure.com/premmia/e1ed798f-fd0b-4d8b-9a18-7e123200315a/_apis/git/repositories/da2df5de-0852-4a26-a0ad-63ffff6beafa&quot;,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:&quot;Aplicativo do programa de relacionamento dos postos Petrobras.&quot;,&quot;id&quot;:&quot;e1ed798f-fd0b-4d8b-9a18-7e123200315a&quot;,&quot;name&quot;:&quot;Petrobras Premmia&quot;,&quot;revision&quot;:46,&quot;state&quot;:&quot;WELL_FORMED&quot;,&quot;url&quot;:&quot;https://dev.azure.com/premmia/_apis/projects/e1ed798f-fd0b-4d8b-9a18-7e123200315a&quot;},&quot;_links&quot;:null}" />
         </ServerContextState>
       </array>
     </option>
