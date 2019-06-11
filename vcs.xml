@@ -26,6 +26,10 @@
           <option name="url" value="http://gitlab.com" />
           <option name="userName" value="tfernandes.cunha" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://github.com" />
+          <option name="userName" value="baumblatt@gmail.com" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Thiago Cunha\WebstormProjects" />
