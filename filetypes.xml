@@ -9,23 +9,22 @@
       <mapping ext="pro" type="PLAIN_TEXT" />
       <mapping ext="xcworkspacedata" type="PLAIN_TEXT" />
       <mapping ext="srt" type="PLAIN_TEXT" />
-      <removed_mapping ext="rb" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="sh" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="sh" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <mapping pattern="baum" type="TypeScript" />
       <mapping pattern="test" type="TypeScript" />
-      <removed_mapping ext="storyboard" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="java" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="sh" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="rb" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="swift" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="properties" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="gradle" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="java" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="sh" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="storyboard" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="properties" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="swift" approved="true" type="PLAIN_TEXT" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
