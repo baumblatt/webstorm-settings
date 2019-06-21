@@ -28,10 +28,9 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="nxe" value="@Effect()&#10;$action$$ = this.actions$.pipe(&#10;    ofType($ACTION$),&#10;    pluck('payload'),&#10;    map(() =&gt; new $ActionClass$()),&#10;);" description="create a new ngrx/store effect in a effects service." toReformat="false" toShortenFQNames="true">
-    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="ActionClass" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="action" expression="underscoresToCamelCase(ACTION)" defaultValue="" alwaysStopAt="false" />
+  <template name="nxe" value="@Effect()&#10;$action$$ = this.actions$.pipe(&#10;    ofType($action$),&#10;    pluck('payload'),&#10;    map(() =&gt; $toAction$()),&#10;);" description="create a new ngrx/store effect in a effects service." toReformat="false" toShortenFQNames="true">
+    <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="toAction" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
