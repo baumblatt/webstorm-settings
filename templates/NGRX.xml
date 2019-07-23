@@ -1,16 +1,19 @@
 <templateSet group="NGRX">
-  <template name="nxr" value="import { $Segment$Action } from '../actions/$import$.action';&#10;&#10;export interface $Segment$State {&#10; &#10;}&#10;&#10;export const initialState: $Segment$State = {&#10;};&#10;&#10;export function $segment$Reducer(state = initialState, action: $Segment$Action): $Segment$State {&#10; &#10;&#9;switch (action.type) {&#10;&#9;&#9;$END$&#10;&#10;&#9;&#9;default: {&#10;&#9;&#9;&#9;return state;&#10;&#9;&#9;}&#10;&#9;}&#10;}&#10;" description="create a new ngrx/store reducer" toReformat="true" toShortenFQNames="true">
+  <template name="nxr" value="export interface $Segment$State {&#10;    $END$&#10;}&#10;&#10;export const initialState: $Segment$State = {&#10;&#10;};&#10;&#10;const reducer = createReducer(&#10;    initialState,&#10;    // ...ons: On&lt;$Segment$State&gt;()&#10;    &#10;);&#10;&#10;export function $segment$Reducer(state: $Segment$State | undefined, action: Action): $Segment$State {&#10;    return reducer(state, action)&#10;}&#10;" description="create a new ngrx/store reducer" toReformat="true" toShortenFQNames="true">
     <variable name="Segment" expression="" defaultValue="'Segment'" alwaysStopAt="true" />
-    <variable name="import" expression="lowercaseAndDash(Segment)" defaultValue="" alwaysStopAt="true" />
-    <variable name="segment" expression="camelCase(Segment)" defaultValue="" alwaysStopAt="true" />
+    <variable name="segment" expression="camelCase(Segment)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="nxa" value="export const $ACTION$ = '[$ACRONYM$] $ACTION$';&#10;&#10;export class $ActionName$ implements Action {&#10;&#9;readonly type = $ACTION$;&#10;&#10;&#9;constructor(public payload: any) {&#10;&#9;}&#10;}&#10;" description="create a new ngrx/store action" toReformat="true" toShortenFQNames="true">
-    <variable name="ACTION" expression="capitalize(ACTION)" defaultValue="" alwaysStopAt="true" />
-    <variable name="ACRONYM" expression="snakeCase(ACRONYM)" defaultValue="" alwaysStopAt="true" />
-    <variable name="ActionName" expression="capitalize(underscoresToCamelCase(ACTION))" defaultValue="" alwaysStopAt="false" />
+  <template name="nxa" value="export const $actionName$ = createAction(&#10;    '[$domain$:$subdomain$:$origin$:$model$] $description$',&#10;    props&lt;{payload: $payload$}&gt;(),&#10;)&#10;" description="create a new ngrx/store action" toReformat="true" toShortenFQNames="true">
+    <variable name="actionName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="domain" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="subdomain" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="origin" expression="" defaultValue="evento" alwaysStopAt="true" />
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="payload" expression="" defaultValue="any" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
@@ -28,10 +31,9 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="nxe" value="@Effect()&#10;$action$$ = this.actions$.pipe(&#10;    ofType($ACTION$),&#10;    pluck('payload'),&#10;    map(() =&gt; new $ActionClass$()),&#10;);" description="create a new ngrx/store effect in a effects service." toReformat="false" toShortenFQNames="true">
-    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="ActionClass" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="action" expression="underscoresToCamelCase(ACTION)" defaultValue="" alwaysStopAt="false" />
+  <template name="nxe" value="@Effect()&#10;$action$$ = this.actions$.pipe(&#10;    ofType($action$),&#10;    pluck('payload'),&#10;    map(() =&gt; $toAction$()),&#10;);" description="create a new ngrx/store effect in a effects service." toReformat="false" toShortenFQNames="true">
+    <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="toAction" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
