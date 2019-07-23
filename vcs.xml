@@ -34,8 +34,12 @@
           <option name="url" value="http://dev.azure.com" />
           <option name="userName" value="premmia" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/digitsensitive/phaser3-typescript.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\Thiago Cunha\WebstormProjects" />
+    <option name="cloneParentDir" value="$USER_HOME$" />
   </component>
 </application>
