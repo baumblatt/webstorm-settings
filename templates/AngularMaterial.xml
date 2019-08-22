@@ -1,9 +1,18 @@
 <templateSet group="AngularMaterial">
-  <template name="mcard" value="&lt;mat-card&gt;&#10;&#9;&lt;mat-card-header&gt;&#10;&#9;&#9;&lt;mat-card-title&gt;$title$&lt;/mat-card-title&gt;&#10;&#9;&#9;&lt;mat-card-subtitle&gt;$subtitle$&lt;/mat-card-subtitle&gt;&#10;&#9;&lt;/mat-card-header&gt;&#10;&#9;&lt;img mat-card-image src=&quot;&quot; alt=&quot;&quot;&gt;&#10;&#9;&lt;mat-card-content&gt;&#10;&#9;&#9;$END$&#10;&#9;&lt;/mat-card-content&gt;&#10;&#9;&lt;mat-card-actions&gt;&#10;&#9;&#9;&lt;button mat-button&gt;$button_01$&lt;/button&gt;&#10;&#9;&#9;&lt;button mat-button&gt;$button_02$&lt;/button&gt;&#10;&#9;&lt;/mat-card-actions&gt;&#10;&lt;/mat-card&gt;" toReformat="true" toShortenFQNames="true">
+  <template name="matcard" value="&lt;mat-card&gt;&#10;&#9;&lt;mat-card-header&gt;&#10;&#9;&#9;&lt;mat-card-title&gt;$title$&lt;/mat-card-title&gt;&#10;&#9;&#9;&lt;mat-card-subtitle&gt;$subtitle$&lt;/mat-card-subtitle&gt;&#10;&#9;&lt;/mat-card-header&gt;&#10;&#9;&lt;img mat-card-image src=&quot;&quot; alt=&quot;&quot;&gt;&#10;&#9;&lt;mat-card-content&gt;&#10;&#9;&#9;$END$&#10;&#9;&lt;/mat-card-content&gt;&#10;&#9;&lt;mat-card-actions&gt;&#10;&#9;&#9;&lt;button mat-button&gt;$button_01$&lt;/button&gt;&#10;&#9;&#9;&lt;button mat-button&gt;$button_02$&lt;/button&gt;&#10;&#9;&lt;/mat-card-actions&gt;&#10;&lt;/mat-card&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="subtitle" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="button_01" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="button_02" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="matinput" value="&lt;mat-form-field floatLabel=&quot;$float$&quot;&gt;&#10;    &lt;mat-label&gt;$label$&lt;/mat-label&gt;&#10;    &lt;input matInput placeholder=&quot;$placeholder$&quot; formControlName=&quot;$name$&quot;&gt;&#10;&lt;/mat-form-field&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="float" expression="" defaultValue="auto" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="placeholder" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
     </context>
