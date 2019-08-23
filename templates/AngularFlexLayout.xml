@@ -1,5 +1,5 @@
 <templateSet group="AngularFlexLayout">
-  <template name="fxrow" value="&lt;$tag$ fxLayout=&quot;row&quot; fxLayoutAlign=&quot;$mainaxis$ $crossaxis$&quot;&gt;&#10;    $END$&#10;&lt;/$tag$&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="fxrow" value="&lt;$tag$ fxLayout=&quot;row&quot; fxLayoutAlign=&quot;$mainaxis$ $crossaxis$&quot;&gt;&#10;    $END$&#10;&lt;/$tag$&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="tag" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="mainaxis" expression="" defaultValue="center" alwaysStopAt="true" />
     <variable name="crossaxis" expression="" defaultValue="center" alwaysStopAt="true" />
@@ -8,7 +8,7 @@
       <option name="JSX_HTML" value="true" />
     </context>
   </template>
-  <template name="fxcol" value="&lt;$tag$ fxLayout=&quot;column&quot; fxLayoutAlign=&quot;$mainaxis$ $crossaxis$&quot;&gt;&#10;    $END$&#10;&lt;/$tag$&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="fxcol" value="&lt;$tag$ fxLayout=&quot;column&quot; fxLayoutAlign=&quot;$mainaxis$ $crossaxis$&quot;&gt;&#10;    $END$&#10;&lt;/$tag$&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="tag" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="mainaxis" expression="" defaultValue="start" alwaysStopAt="true" />
     <variable name="crossaxis" expression="" defaultValue="stretch" alwaysStopAt="true" />
