@@ -1,7 +1,4 @@
 <templateSet group="Zen CSS">
-  <template name="h" value="height: $END$;" description="height:...;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
   <template name="f" value="font: $END$;" description="font:...;" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
