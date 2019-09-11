@@ -6,7 +6,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="nxa" value="export const $actionName$ = createAction(&#10;    '[$domain$:$subdomain$:$origin$:$model$] $description$',&#10;    props&lt;{payload: $payload$}&gt;(),&#10;)&#10;" description="create a new ngrx/store action" toReformat="true" toShortenFQNames="true">
+  <template name="nxa" value="export const $actionName$ = createAction(&#10;    '[$domain$:$subdomain$:$origin$:$model$] $description$',&#10;    props&lt;{payload: $payload$}&gt;(),&#10;);&#10;" description="create a new ngrx/store action" toReformat="true" toShortenFQNames="true">
     <variable name="actionName" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="domain" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="subdomain" expression="" defaultValue="" alwaysStopAt="true" />
@@ -31,8 +31,9 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="nxe" value="$action$$ = createEffect(() =&gt; this.actions$.pipe(&#10;    ofType($action$),&#10;    pluck('payload'),&#10;    map(() =&gt; $toAction$()),&#10;));&#10;" description="create a new ngrx/store effect in a effects service." toReformat="false" toShortenFQNames="true">
+  <template name="nxe" value="$_action$$ = createEffect(() =&gt; this.actions$.pipe(&#10;    ofType($action$),&#10;    pluck('payload'),&#10;    map(() =&gt; $toAction$()),&#10;));&#10;" description="create a new ngrx/store effect in a effects service." toReformat="false" toShortenFQNames="true">
     <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="_action" expression="action" defaultValue="" alwaysStopAt="false" />
     <variable name="toAction" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
@@ -51,11 +52,15 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="nxasf" value="export const $ACTION$ = '[$ACRONYM$] $description$.';&#10;export const $ACTION$_SUCCESS = '[$ACRONYM$] $description$ (Success).';&#10;export const $ACTION$_FAIL = '[$ACRONYM$] $description$ (Fail).';&#10;&#10;export class $ActionName$ implements Action {&#10;&#9;readonly type = $ACTION$;&#10;&#10;&#9;constructor(public payload: any) {&#10;&#9;}&#10;}&#10;&#10;export class $ActionName$Success implements Action {&#10;&#9;readonly type = $ACTION$_SUCCESS;&#10;&#10;&#9;constructor(public payload: any) {&#10;&#9;}&#10;}&#10;&#10;export class $ActionName$Fail implements Action {&#10;&#9;readonly type = $ACTION$_FAIL;&#10;&#10;&#9;constructor(public payload: any) {&#10;&#9;}&#10;}" description="create a new ngrx/store triple action" toReformat="true" toShortenFQNames="true">
-    <variable name="ACTION" expression="capitalize(ACTION)" defaultValue="" alwaysStopAt="true" />
-    <variable name="ACRONYM" expression="snakeCase(ACRONYM)" defaultValue="" alwaysStopAt="true" />
-    <variable name="description" expression="ACTION" defaultValue="" alwaysStopAt="true" />
-    <variable name="ActionName" expression="capitalize(underscoresToCamelCase(ACTION))" defaultValue="" alwaysStopAt="false" />
+  <template name="nxasf" value="export const $actionName$ = createAction(&#10;    '[$domain$:$subdomain$:$origin$:$model$] $description$.',&#10;    props&lt;{payload: $payload$}&gt;(),&#10;);&#10;&#10;export const $actionName$Success = createAction(&#10;    '[$domain$:$subdomain$:$orign$:$model$] $description$ (Success).',&#10;    props&lt;{payload: $payload$}&gt;(),&#10;);&#10;&#10;export const $actionName$Fail = createAction(&#10;    '[$domain$:$subdomain$:$origin$:$model$] $description$ (Fail).',&#10;    props&lt;{payload: $payload$}&gt;(),&#10;);" description="create a new ngrx/store triple action" toReformat="true" toShortenFQNames="true">
+    <variable name="actionName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="domain" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="subdomain" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="origin" expression="" defaultValue="ignore" alwaysStopAt="true" />
+    <variable name="model" expression="" defaultValue="void" alwaysStopAt="true" />
+    <variable name="payload" expression="" defaultValue="any" alwaysStopAt="true" />
+    <variable name="orign" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="description" expression="spaceSeparated(actionName)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
