@@ -52,15 +52,14 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="nxasf" value="export const $actionName$ = createAction(&#10;    '[$domain$:$subdomain$:$origin$:$model$] $description$.',&#10;    props&lt;{payload: $payload$}&gt;(),&#10;);&#10;&#10;export const $actionName$Success = createAction(&#10;    '[$domain$:$subdomain$:$orign$:$model$] $description$ (Success).',&#10;    props&lt;{payload: $payload$}&gt;(),&#10;);&#10;&#10;export const $actionName$Fail = createAction(&#10;    '[$domain$:$subdomain$:$origin$:$model$] $description$ (Fail).',&#10;    props&lt;{payload: $payload$}&gt;(),&#10;);" description="create a new ngrx/store triple action" toReformat="true" toShortenFQNames="true">
+  <template name="nxasf" value="export const $actionName$ = createAction(&#10;    '[$domain$:$subdomain$:$origin$:$model$] $description$.',&#10;    props&lt;{payload: $payload$}&gt;(),&#10;);&#10;&#10;export const $actionName$Success = createAction(&#10;    '[$domain$:$subdomain$:$origin$:$model$] $description$ (Success).',&#10;    props&lt;{payload: $payload$}&gt;(),&#10;);&#10;&#10;export const $actionName$Fail = createAction(&#10;    '[$domain$:$subdomain$:$origin$:$model$] $description$ (Fail).',&#10;    props&lt;{payload: $payload$}&gt;(),&#10;);" description="create a new ngrx/store triple action" toReformat="true" toShortenFQNames="true">
     <variable name="actionName" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="domain" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="subdomain" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="origin" expression="" defaultValue="ignore" alwaysStopAt="true" />
     <variable name="model" expression="" defaultValue="void" alwaysStopAt="true" />
+    <variable name="description" expression="capitalize(spaceSeparated(actionName))" defaultValue="" alwaysStopAt="true" />
     <variable name="payload" expression="" defaultValue="any" alwaysStopAt="true" />
-    <variable name="orign" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="description" expression="spaceSeparated(actionName)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
