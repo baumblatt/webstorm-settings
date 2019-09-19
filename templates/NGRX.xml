@@ -25,7 +25,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="nxes" value="import {Injectable} from '@angular/core';&#10;import {Actions} from '@ngrx/effects';&#10;&#10;@Injectable()&#10;export class $Segment$Effects {&#10;&#10;&#9;constructor(private actions$: Actions) {&#10;&#9;}&#10;&#10;&#9;$END$&#10;&#10;}" description="create a new ngrx/store effects injectable service" toReformat="false" toShortenFQNames="true">
+  <template name="nxes" value="import {Injectable} from '@angular/core';&#10;import {Actions} from '@ngrx/effects';&#10;&#10;@Injectable()&#10;export class $Segment$ {&#10;&#10;&#9;$END$&#10;&#10;&#9;constructor(private actions$: Actions) {&#10;&#9;}&#10;&#10;}" description="create a new ngrx/store effects injectable service" toReformat="false" toShortenFQNames="true">
     <variable name="Segment" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
