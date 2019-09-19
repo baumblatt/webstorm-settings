@@ -12,7 +12,7 @@
     <variable name="subdomain" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="origin" expression="" defaultValue="evento" alwaysStopAt="true" />
     <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="description" expression="capitalize(spaceSeparated(actionName))" defaultValue="" alwaysStopAt="true" />
     <variable name="payload" expression="" defaultValue="any" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
