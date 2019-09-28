@@ -1,4 +1,5 @@
 <code_scheme name="Petrobras Premmia" version="173">
+  <option name="AUTODETECT_INDENTS" value="false" />
   <option name="RIGHT_MARGIN" value="150" />
   <DBN-PSQL>
     <case-options enabled="false">
