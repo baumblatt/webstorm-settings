@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="event" value="if let $name$ = event[&quot;$name$&quot;] as? String {&#10;    parameters[AnalyticsParameter$Name$] =  $name$&#10;}" toReformat="true" toShortenFQNames="true">
+  <template name="event" value="if let $name$ = event[&quot;$name$&quot;] as? String {&#10;    parameters[AnalyticsParameter$Name$] =  $name$&#10;}" description="" toReformat="true" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="Name" expression="capitalize(name)" defaultValue="" alwaysStopAt="false" />
     <context>
