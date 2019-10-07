@@ -1,7 +1,23 @@
 <templateSet group="user">
-  <template name="&lt;abbreviation&gt;" value="&lt;mat-card&gt;&#10;&#9;&lt;mat-card-header&gt;&#10;&#9;&#9;&lt;mat-card-title&gt;Shiba Inu&lt;/mat-card-title&gt;&#10;&#9;&#9;&lt;mat-card-subtitle&gt;Dog Breed&lt;/mat-card-subtitle&gt;&#10;&#9;&lt;/mat-card-header&gt;&#10;&#9;&lt;img mat-card-image src=&quot;&quot; alt=&quot;&quot;&gt;&#10;&#9;&lt;mat-card-content&gt;&#10;&#9;&#9;The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.&#10;&#9;&#9;A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally&#10;&#9;&#9;bred for hunting.&#10;&#9;&lt;/mat-card-content&gt;&#10;&#9;&lt;mat-card-actions&gt;&#10;&#9;&#9;&lt;button mat-button&gt;OK&lt;/button&gt;&#10;&#9;&#9;&lt;button mat-button&gt;CANCEL&lt;/button&gt;&#10;&#9;&lt;/mat-card-actions&gt;&#10;&lt;/mat-card&gt;" description="" toReformat="true" toShortenFQNames="true">
+  <template name="event" value="@objc func $nome$(_ call: CAPPluginCall) {&#10;        guard let event = call.getString(&quot;event&quot;) else {&#10;            call.error(&quot;The event's parameters are required to log $NOME$&quot;)&#10;            return&#10;        }&#10;        &#10;        let parameters = [:]&#10;&#10;        DispatchQueue.main.async {&#10;            Analytics.logEvent(AnalyticsEvent$Nome$, parameters: parameters);&#10;            call.success();&#10;        }&#10;    }&#10;}&#10;&#10;$END$" toReformat="true" toShortenFQNames="true">
+    <variable name="nome" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NOME" expression="capitalizeAndUnderscore(nome)" defaultValue="" alwaysStopAt="false" />
+    <variable name="Nome" expression="capitalize(nome)" defaultValue="" alwaysStopAt="false" />
     <context>
-      <option name="HTML_TEXT" value="true" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
 </templateSet>
