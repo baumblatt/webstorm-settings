@@ -1,8 +1,5 @@
 <templateSet group="user">
-  <template name="event" value="@objc func $nome$(_ call: CAPPluginCall) {&#10;        guard let event = call.getString(&quot;event&quot;) else {&#10;            call.error(&quot;The event's parameters are required to log $NOME$&quot;)&#10;            return&#10;        }&#10;        &#10;        let parameters = [:]&#10;&#10;        DispatchQueue.main.async {&#10;            Analytics.logEvent(AnalyticsEvent$Nome$, parameters: parameters);&#10;            call.success();&#10;        }&#10;    }&#10;}&#10;&#10;$END$" toReformat="true" toShortenFQNames="true">
-    <variable name="nome" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="NOME" expression="capitalizeAndUnderscore(nome)" defaultValue="" alwaysStopAt="false" />
-    <variable name="Nome" expression="capitalize(nome)" defaultValue="" alwaysStopAt="false" />
+  <template name="event" value="        if let currency = event[&quot;currency&quot;] as? String {&#10;            parameters[AnalyticsParameterCurrency] =  currency&#10;        }" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="CSS" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
