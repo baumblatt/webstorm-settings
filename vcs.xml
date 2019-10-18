@@ -24,7 +24,7 @@
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://gitlab.com" />
-          <option name="userName" value="tfernandes.cunha" />
+          <option name="userName" value="baumblatt" />
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://github.com" />
@@ -56,6 +56,10 @@
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="https://github.com/baumblatt/capacitor.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/hackingrio-timebr/projeto-educacao.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
