@@ -31,7 +31,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="nxe" value="$_action$$ = createEffect(() =&gt; this.actions$.pipe(&#10;    ofType($action$),&#10;    pluck('payload'),&#10;    map(() =&gt; $toAction$()),&#10;));&#10;" description="create a new ngrx/store effect in a effects service." toReformat="false" toShortenFQNames="true">
+  <template name="nxe" value="$_action$$ = createEffect(() =&gt; this.actions$.pipe(&#10;    ofType($action$),&#10;    map(({payload}) =&gt; $toAction$()),&#10;));&#10;" description="create a new ngrx/store effect in a effects service." toReformat="false" toShortenFQNames="true">
     <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="_action" expression="action" defaultValue="" alwaysStopAt="false" />
     <variable name="toAction" expression="" defaultValue="" alwaysStopAt="true" />
