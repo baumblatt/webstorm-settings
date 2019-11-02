@@ -24,7 +24,7 @@
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://gitlab.com" />
-          <option name="userName" value="tfernandes.cunha" />
+          <option name="userName" value="vitorplopes@gmail.com" />
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://github.com" />
@@ -48,7 +48,7 @@
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/wks" />
+    <option name="cloneParentDir" value="$USER_HOME$/BR" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
