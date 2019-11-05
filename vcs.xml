@@ -3,71 +3,13 @@
     <option name="visitedUrls">
       <list>
         <UrlAndUserName>
-          <option name="url" value="https://gitlab.com/we-started/roteiros-viagem.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://sbr00ap0197.br.biz/apps-internos/minhabr-mobile-v2.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://sbr00ap0197.br.biz" />
-          <option name="userName" value="zyt5" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://sbr00ap0197.br.biz/sharepoint/sistema-gestao-facilitadores-comunicacao.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://sbr00ap0197.br.biz/apps-clientes/corsarius.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
           <option name="url" value="http://gitlab.com" />
-          <option name="userName" value="baumblatt" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://github.com" />
-          <option name="userName" value="baumblatt@gmail.com" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://dev.azure.com" />
-          <option name="userName" value="premmia" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/digitsensitive/phaser3-typescript.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="ssh://bernardob@br-petrobras.com.br@source.developers.google.com:2022/p/petrobras-premmia-dev/r/premmia-functions" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/baumblatt/minhas-cervejas.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/piotrzuzak/ionic-firebase-capacitor-test.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/Rufrage/Break.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/baumblatt/capacitor.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://gitlab.com/hackingrio-timebr/projeto-educacao.git" />
-          <option name="userName" value="" />
+          <option name="userName" value="vitorplopes@gmail.com" />
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/wks" />
   </component>
   <component name="Vcs.Log.App.Settings">
-    <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
     <option name="COLUMN_ORDER">
       <list>
         <option value="0" />
