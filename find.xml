@@ -11,11 +11,12 @@
     <mask>*.sht</mask>
     <mask>*.ng</mask>
     <mask>*.ats</mask>
-    <mask>*.ts</mask>
     <mask>*.cjs</mask>
     <mask>*.js</mask>
     <mask>*.scss</mask>
-    <mask>*.html</mask>
+    <mask>*html</mask>
+    <mask>*.ts</mask>
     <mask>*ts</mask>
+    <mask>*.html</mask>
   </component>
 </application>
