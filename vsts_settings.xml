@@ -29,29 +29,12 @@
         </ServerContextState>
         <ServerContextState>
           <option name="type" value="VSO" />
-          <option name="uri" value="https://brltrust-dev@dev.azure.com/brltrust-dev/brltrust-platform/_git/fidc-api" />
-          <option name="serverUri" value="https://dev.azure.com/brltrust-dev" />
-          <option name="userId" value="09d338f0-8e8a-6b56-bf70-a67e40ad37bd" />
-          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;417ed611-1fe8-4ce2-a568-f9656662498a&quot;,&quot;name&quot;:&quot;brltrust-dev&quot;,&quot;url&quot;:&quot;https://dev.azure.com/brltrust-dev/_apis/projectCollections/417ed611-1fe8-4ce2-a568-f9656662498a&quot;}" />
-          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;fe4ddf44-617c-4219-ad99-bb96bd567b0d&quot;,&quot;name&quot;:&quot;brltrust-platform&quot;,&quot;revision&quot;:37,&quot;state&quot;:&quot;WELL_FORMED&quot;,&quot;url&quot;:&quot;https://dev.azure.com/brltrust-dev/_apis/projects/fe4ddf44-617c-4219-ad99-bb96bd567b0d&quot;}" />
-          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;025ff294-279b-410d-b46d-44ae99c9592c&quot;,&quot;name&quot;:&quot;fidc-api&quot;,&quot;remoteUrl&quot;:&quot;https://brltrust-dev@dev.azure.com/brltrust-dev/brltrust-platform/_git/fidc-api&quot;,&quot;url&quot;:&quot;https://dev.azure.com/brltrust-dev/fe4ddf44-617c-4219-ad99-bb96bd567b0d/_apis/git/repositories/025ff294-279b-410d-b46d-44ae99c9592c&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;fe4ddf44-617c-4219-ad99-bb96bd567b0d&quot;,&quot;name&quot;:&quot;brltrust-platform&quot;,&quot;revision&quot;:37,&quot;state&quot;:&quot;WELL_FORMED&quot;,&quot;url&quot;:&quot;https://dev.azure.com/brltrust-dev/_apis/projects/fe4ddf44-617c-4219-ad99-bb96bd567b0d&quot;}}" />
-        </ServerContextState>
-        <ServerContextState>
-          <option name="type" value="VSO" />
           <option name="uri" value="https://premmia@dev.azure.com/premmia/Petrobras%20Premmia/_git/Petrobras%20Premmia" />
           <option name="serverUri" value="https://dev.azure.com/premmia" />
           <option name="userId" value="e46f2e50-3162-6ba2-bc12-077b3bf3a84b" />
           <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;a2534e9d-7d03-4c7e-b324-6892edff3615&quot;,&quot;name&quot;:&quot;premmia&quot;,&quot;url&quot;:&quot;https://dev.azure.com/premmia/_apis/projectCollections/a2534e9d-7d03-4c7e-b324-6892edff3615&quot;}" />
           <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:&quot;Aplicativo do programa de relacionamento dos postos Petrobras.&quot;,&quot;id&quot;:&quot;e1ed798f-fd0b-4d8b-9a18-7e123200315a&quot;,&quot;name&quot;:&quot;Petrobras Premmia&quot;,&quot;revision&quot;:70,&quot;state&quot;:&quot;WELL_FORMED&quot;,&quot;url&quot;:&quot;https://dev.azure.com/premmia/_apis/projects/e1ed798f-fd0b-4d8b-9a18-7e123200315a&quot;}" />
           <option name="gitRepository" value="{&quot;defaultBranch&quot;:&quot;refs/heads/master&quot;,&quot;id&quot;:&quot;da2df5de-0852-4a26-a0ad-63ffff6beafa&quot;,&quot;name&quot;:&quot;Petrobras Premmia&quot;,&quot;remoteUrl&quot;:&quot;https://premmia@dev.azure.com/premmia/Petrobras%20Premmia/_git/Petrobras%20Premmia&quot;,&quot;url&quot;:&quot;https://dev.azure.com/premmia/e1ed798f-fd0b-4d8b-9a18-7e123200315a/_apis/git/repositories/da2df5de-0852-4a26-a0ad-63ffff6beafa&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:&quot;Aplicativo do programa de relacionamento dos postos Petrobras.&quot;,&quot;id&quot;:&quot;e1ed798f-fd0b-4d8b-9a18-7e123200315a&quot;,&quot;name&quot;:&quot;Petrobras Premmia&quot;,&quot;revision&quot;:70,&quot;state&quot;:&quot;WELL_FORMED&quot;,&quot;url&quot;:&quot;https://dev.azure.com/premmia/_apis/projects/e1ed798f-fd0b-4d8b-9a18-7e123200315a&quot;}}" />
-        </ServerContextState>
-        <ServerContextState>
-          <option name="type" value="VSO" />
-          <option name="uri" value="https://dev.azure.com/brltrust-dev" />
-          <option name="serverUri" value="https://dev.azure.com/brltrust-dev" />
-          <option name="userId" value="09d338f0-8e8a-6b56-bf70-a67e40ad37bd" />
-          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;417ed611-1fe8-4ce2-a568-f9656662498a&quot;,&quot;name&quot;:&quot;brltrust-dev&quot;,&quot;url&quot;:&quot;https://dev.azure.com/brltrust-dev/_apis/projectCollections/417ed611-1fe8-4ce2-a568-f9656662498a&quot;}" />
-          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;fe4ddf44-617c-4219-ad99-bb96bd567b0d&quot;,&quot;name&quot;:&quot;brltrust-platform&quot;,&quot;revision&quot;:37,&quot;state&quot;:&quot;WELL_FORMED&quot;,&quot;url&quot;:&quot;https://dev.azure.com/brltrust-dev/_apis/projects/fe4ddf44-617c-4219-ad99-bb96bd567b0d&quot;}" />
         </ServerContextState>
         <ServerContextState>
           <option name="type" value="VSO" />
@@ -67,12 +50,12 @@
     <option name="properties">
       <array>
         <PropertyState>
-          <option name="name" value="repoRoot" />
-          <option name="value" value="$USER_HOME$/wks" />
+          <option name="name" value="tfHome" />
+          <option name="value" value="" />
         </PropertyState>
         <PropertyState>
-          <option name="name" value="lastContextKey" />
-          <option name="value" value="//dev.azure.com/brltrust-dev" />
+          <option name="name" value="repoRoot" />
+          <option name="value" value="$USER_HOME$/wks" />
         </PropertyState>
       </array>
     </option>
