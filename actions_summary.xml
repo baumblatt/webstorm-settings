@@ -53,8 +53,8 @@
         <entry key="CloseAllEditors">
           <value>
             <ActionSummary>
-              <option name="last" value="1581341796133" />
-              <option name="times" value="3" />
+              <option name="last" value="1581347557467" />
+              <option name="times" value="5" />
             </ActionSummary>
           </value>
         </entry>
@@ -181,16 +181,16 @@
         <entry key="EditorLeft">
           <value>
             <ActionSummary>
-              <option name="last" value="1581338349081" />
-              <option name="times" value="71" />
+              <option name="last" value="1581346719448" />
+              <option name="times" value="72" />
             </ActionSummary>
           </value>
         </entry>
         <entry key="EditorLineStart">
           <value>
             <ActionSummary>
-              <option name="last" value="1581341837562" />
-              <option name="times" value="7" />
+              <option name="last" value="1581346709710" />
+              <option name="times" value="8" />
             </ActionSummary>
           </value>
         </entry>
@@ -205,8 +205,8 @@
         <entry key="EditorPaste">
           <value>
             <ActionSummary>
-              <option name="last" value="1581341859354" />
-              <option name="times" value="20" />
+              <option name="last" value="1581346708192" />
+              <option name="times" value="21" />
             </ActionSummary>
           </value>
         </entry>
@@ -282,6 +282,14 @@
             </ActionSummary>
           </value>
         </entry>
+        <entry key="Images.Editor.ZoomOut">
+          <value>
+            <ActionSummary>
+              <option name="last" value="1581347831510" />
+              <option name="times" value="10" />
+            </ActionSummary>
+          </value>
+        </entry>
         <entry key="MoveLineDown">
           <value>
             <ActionSummary>
@@ -349,8 +357,8 @@
         <entry key="NewWebStormDirectoryProject">
           <value>
             <ActionSummary>
-              <option name="last" value="1581340916677" />
-              <option name="times" value="1" />
+              <option name="last" value="1581346686580" />
+              <option name="times" value="2" />
             </ActionSummary>
           </value>
         </entry>
@@ -431,6 +439,14 @@
             <ActionSummary>
               <option name="last" value="1581291304928" />
               <option name="times" value="1" />
+            </ActionSummary>
+          </value>
+        </entry>
+        <entry key="Tree-selectPrevious">
+          <value>
+            <ActionSummary>
+              <option name="last" value="1581347011631" />
+              <option name="times" value="3" />
             </ActionSummary>
           </value>
         </entry>
@@ -559,6 +575,14 @@
             <ActionSummary>
               <option name="last" value="1581291307859" />
               <option name="times" value="4" />
+            </ActionSummary>
+          </value>
+        </entry>
+        <entry key="org.jetbrains.plugins.terminal.TerminalView$1">
+          <value>
+            <ActionSummary>
+              <option name="last" value="1581346842289" />
+              <option name="times" value="2" />
             </ActionSummary>
           </value>
         </entry>
