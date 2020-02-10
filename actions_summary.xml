@@ -341,8 +341,8 @@
         <entry key="Rerun">
           <value>
             <ActionSummary>
-              <option name="last" value="1581299324157" />
-              <option name="times" value="86" />
+              <option name="last" value="1581338136837" />
+              <option name="times" value="88" />
             </ActionSummary>
           </value>
         </entry>
@@ -445,8 +445,8 @@
         <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
           <value>
             <ActionSummary>
-              <option name="last" value="1581291001330" />
-              <option name="times" value="4" />
+              <option name="last" value="1581338148049" />
+              <option name="times" value="6" />
             </ActionSummary>
           </value>
         </entry>
