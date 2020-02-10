@@ -16,7 +16,7 @@
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://github.com" />
-          <option name="userName" value="baumblatt@gmail.com" />
+          <option name="userName" value="vitorplopes@gmail.com" />
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="git@ssh.dev.azure.com:v3/brltrust-dev/brltrust-platform/fidc-app" />
@@ -25,6 +25,10 @@
         <UrlAndUserName>
           <option name="url" value="http://dev.azure.com" />
           <option name="userName" value="premmia" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/vitorplopes/analytics-google.git" />
+          <option name="userName" value="" />
         </UrlAndUserName>
       </list>
     </option>
