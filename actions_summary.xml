@@ -13,8 +13,8 @@
         <entry key="$Delete">
           <value>
             <ActionSummary>
-              <option name="last" value="1581435013663" />
-              <option name="times" value="35" />
+              <option name="last" value="1581441719954" />
+              <option name="times" value="36" />
             </ActionSummary>
           </value>
         </entry>
@@ -23,6 +23,14 @@
             <ActionSummary>
               <option name="last" value="1581425020078" />
               <option name="times" value="14" />
+            </ActionSummary>
+          </value>
+        </entry>
+        <entry key="$Redo">
+          <value>
+            <ActionSummary>
+              <option name="last" value="1581441908605" />
+              <option name="times" value="2" />
             </ActionSummary>
           </value>
         </entry>
@@ -37,8 +45,8 @@
         <entry key="$Undo">
           <value>
             <ActionSummary>
-              <option name="last" value="1581439139351" />
-              <option name="times" value="64" />
+              <option name="last" value="1581441912457" />
+              <option name="times" value="67" />
             </ActionSummary>
           </value>
         </entry>
@@ -133,8 +141,8 @@
         <entry key="CloseContent">
           <value>
             <ActionSummary>
-              <option name="last" value="1581424911781" />
-              <option name="times" value="1" />
+              <option name="last" value="1581442010010" />
+              <option name="times" value="2" />
             </ActionSummary>
           </value>
         </entry>
@@ -210,6 +218,14 @@
             </ActionSummary>
           </value>
         </entry>
+        <entry key="Docker.RemoteServers.ExecInContainer">
+          <value>
+            <ActionSummary>
+              <option name="last" value="1581442031715" />
+              <option name="times" value="3" />
+            </ActionSummary>
+          </value>
+        </entry>
         <entry key="Docker.RemoteServers.InspectContainerOrImage">
           <value>
             <ActionSummary>
@@ -221,8 +237,8 @@
         <entry key="Docker.RemoteServers.StartContainer">
           <value>
             <ActionSummary>
-              <option name="last" value="1581440746605" />
-              <option name="times" value="41" />
+              <option name="last" value="1581442083318" />
+              <option name="times" value="47" />
             </ActionSummary>
           </value>
         </entry>
@@ -237,16 +253,16 @@
         <entry key="Docker.RemoteServers.StopContainer">
           <value>
             <ActionSummary>
-              <option name="last" value="1581440739606" />
-              <option name="times" value="43" />
+              <option name="last" value="1581442081050" />
+              <option name="times" value="49" />
             </ActionSummary>
           </value>
         </entry>
         <entry key="EditorBackSpace">
           <value>
             <ActionSummary>
-              <option name="last" value="1581440797547" />
-              <option name="times" value="2075" />
+              <option name="last" value="1581441791323" />
+              <option name="times" value="2084" />
             </ActionSummary>
           </value>
         </entry>
@@ -269,8 +285,8 @@
         <entry key="EditorCopy">
           <value>
             <ActionSummary>
-              <option name="last" value="1581437752995" />
-              <option name="times" value="109" />
+              <option name="last" value="1581442231039" />
+              <option name="times" value="110" />
             </ActionSummary>
           </value>
         </entry>
@@ -677,8 +693,8 @@
         <entry key="RenameElement">
           <value>
             <ActionSummary>
-              <option name="last" value="1581437848489" />
-              <option name="times" value="13" />
+              <option name="last" value="1581441787272" />
+              <option name="times" value="14" />
             </ActionSummary>
           </value>
         </entry>
@@ -709,8 +725,8 @@
         <entry key="SaveAll">
           <value>
             <ActionSummary>
-              <option name="last" value="1581440798830" />
-              <option name="times" value="358" />
+              <option name="last" value="1581441913811" />
+              <option name="times" value="360" />
             </ActionSummary>
           </value>
         </entry>
@@ -773,8 +789,8 @@
         <entry key="Terminal.OpenInTerminal">
           <value>
             <ActionSummary>
-              <option name="last" value="1581423952873" />
-              <option name="times" value="1" />
+              <option name="last" value="1581441652429" />
+              <option name="times" value="2" />
             </ActionSummary>
           </value>
         </entry>
@@ -893,8 +909,8 @@
         <entry key="com.intellij.execution.impl.ConsoleViewImpl$ClearThisConsoleAction">
           <value>
             <ActionSummary>
-              <option name="last" value="1581440748523" />
-              <option name="times" value="10" />
+              <option name="last" value="1581442085187" />
+              <option name="times" value="14" />
             </ActionSummary>
           </value>
         </entry>
@@ -909,8 +925,8 @@
         <entry key="com.intellij.execution.lineMarker.LineMarkerActionWrapper">
           <value>
             <ActionSummary>
-              <option name="last" value="1581440811372" />
-              <option name="times" value="12" />
+              <option name="last" value="1581442137809" />
+              <option name="times" value="14" />
             </ActionSummary>
           </value>
         </entry>
