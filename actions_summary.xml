@@ -13,8 +13,8 @@
         <entry key="$Delete">
           <value>
             <ActionSummary>
-              <option name="last" value="1581446347472" />
-              <option name="times" value="38" />
+              <option name="last" value="1581458539068" />
+              <option name="times" value="39" />
             </ActionSummary>
           </value>
         </entry>
@@ -429,8 +429,8 @@
         <entry key="EditorRightWithSelection">
           <value>
             <ActionSummary>
-              <option name="last" value="1581447752050" />
-              <option name="times" value="235" />
+              <option name="last" value="1581458687619" />
+              <option name="times" value="239" />
             </ActionSummary>
           </value>
         </entry>
@@ -725,8 +725,8 @@
         <entry key="Rerun">
           <value>
             <ActionSummary>
-              <option name="last" value="1581439348580" />
-              <option name="times" value="98" />
+              <option name="last" value="1581458693445" />
+              <option name="times" value="100" />
             </ActionSummary>
           </value>
         </entry>
@@ -741,16 +741,16 @@
         <entry key="Run">
           <value>
             <ActionSummary>
-              <option name="last" value="1581450434996" />
-              <option name="times" value="150" />
+              <option name="last" value="1581458653181" />
+              <option name="times" value="152" />
             </ActionSummary>
           </value>
         </entry>
         <entry key="SaveAll">
           <value>
             <ActionSummary>
-              <option name="last" value="1581454590154" />
-              <option name="times" value="430" />
+              <option name="last" value="1581458690448" />
+              <option name="times" value="432" />
             </ActionSummary>
           </value>
         </entry>
@@ -917,8 +917,8 @@
         <entry key="com.intellij.execution.actions.RunConfigurationsComboBoxAction$SelectConfigAction">
           <value>
             <ActionSummary>
-              <option name="last" value="1581439245043" />
-              <option name="times" value="10" />
+              <option name="last" value="1581458651977" />
+              <option name="times" value="11" />
             </ActionSummary>
           </value>
         </entry>
