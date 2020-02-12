@@ -269,8 +269,8 @@
         <entry key="EditorBackSpace">
           <value>
             <ActionSummary>
-              <option name="last" value="1581536425066" />
-              <option name="times" value="2454" />
+              <option name="last" value="1581536796824" />
+              <option name="times" value="2456" />
             </ActionSummary>
           </value>
         </entry>
@@ -293,8 +293,8 @@
         <entry key="EditorCopy">
           <value>
             <ActionSummary>
-              <option name="last" value="1581520912264" />
-              <option name="times" value="125" />
+              <option name="last" value="1581536902347" />
+              <option name="times" value="128" />
             </ActionSummary>
           </value>
         </entry>
@@ -413,8 +413,8 @@
         <entry key="EditorPaste">
           <value>
             <ActionSummary>
-              <option name="last" value="1581521038320" />
-              <option name="times" value="145" />
+              <option name="last" value="1581536857608" />
+              <option name="times" value="146" />
             </ActionSummary>
           </value>
         </entry>
@@ -509,8 +509,8 @@
         <entry key="Git.Configure.Remotes">
           <value>
             <ActionSummary>
-              <option name="last" value="1581536359965" />
-              <option name="times" value="2" />
+              <option name="last" value="1581536851467" />
+              <option name="times" value="4" />
             </ActionSummary>
           </value>
         </entry>
@@ -909,8 +909,8 @@
         <entry key="Vcs.UpdateProject">
           <value>
             <ActionSummary>
-              <option name="last" value="1581536380647" />
-              <option name="times" value="6" />
+              <option name="last" value="1581536981673" />
+              <option name="times" value="14" />
             </ActionSummary>
           </value>
         </entry>
@@ -1165,8 +1165,8 @@
         <entry key="com.intellij.ui.CommonActionsPanel$EditButton">
           <value>
             <ActionSummary>
-              <option name="last" value="1581536363407" />
-              <option name="times" value="19" />
+              <option name="last" value="1581536855174" />
+              <option name="times" value="23" />
             </ActionSummary>
           </value>
         </entry>
