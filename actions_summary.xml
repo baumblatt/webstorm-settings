@@ -141,8 +141,8 @@
         <entry key="CloseAllEditors">
           <value>
             <ActionSummary>
-              <option name="last" value="1581463523451" />
-              <option name="times" value="49" />
+              <option name="last" value="1581537563297" />
+              <option name="times" value="50" />
             </ActionSummary>
           </value>
         </entry>
@@ -269,8 +269,8 @@
         <entry key="EditorBackSpace">
           <value>
             <ActionSummary>
-              <option name="last" value="1581536796824" />
-              <option name="times" value="2456" />
+              <option name="last" value="1581537375877" />
+              <option name="times" value="2457" />
             </ActionSummary>
           </value>
         </entry>
@@ -477,16 +477,16 @@
         <entry key="Find">
           <value>
             <ActionSummary>
-              <option name="last" value="1581445820049" />
-              <option name="times" value="3" />
+              <option name="last" value="1581537532512" />
+              <option name="times" value="12" />
             </ActionSummary>
           </value>
         </entry>
         <entry key="FindInPath">
           <value>
             <ActionSummary>
-              <option name="last" value="1581454931699" />
-              <option name="times" value="2" />
+              <option name="last" value="1581537466127" />
+              <option name="times" value="3" />
             </ActionSummary>
           </value>
         </entry>
@@ -509,8 +509,8 @@
         <entry key="Git.Configure.Remotes">
           <value>
             <ActionSummary>
-              <option name="last" value="1581536851467" />
-              <option name="times" value="4" />
+              <option name="last" value="1581537259352" />
+              <option name="times" value="5" />
             </ActionSummary>
           </value>
         </entry>
@@ -717,8 +717,8 @@
         <entry key="RenameElement">
           <value>
             <ActionSummary>
-              <option name="last" value="1581536557105" />
-              <option name="times" value="22" />
+              <option name="last" value="1581537269688" />
+              <option name="times" value="23" />
             </ActionSummary>
           </value>
         </entry>
@@ -911,6 +911,14 @@
             <ActionSummary>
               <option name="last" value="1581536981673" />
               <option name="times" value="14" />
+            </ActionSummary>
+          </value>
+        </entry>
+        <entry key="WelcomeScreen.OpenDirectoryProject">
+          <value>
+            <ActionSummary>
+              <option name="last" value="1581537221282" />
+              <option name="times" value="1" />
             </ActionSummary>
           </value>
         </entry>
