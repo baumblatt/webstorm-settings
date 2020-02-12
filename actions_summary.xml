@@ -13,8 +13,8 @@
         <entry key="$Delete">
           <value>
             <ActionSummary>
-              <option name="last" value="1581460893548" />
-              <option name="times" value="43" />
+              <option name="last" value="1581537696281" />
+              <option name="times" value="44" />
             </ActionSummary>
           </value>
         </entry>
@@ -157,8 +157,8 @@
         <entry key="CodeCompletion">
           <value>
             <ActionSummary>
-              <option name="last" value="1581449107827" />
-              <option name="times" value="25" />
+              <option name="last" value="1581537754854" />
+              <option name="times" value="27" />
             </ActionSummary>
           </value>
         </entry>
@@ -917,8 +917,8 @@
         <entry key="WelcomeScreen.OpenDirectoryProject">
           <value>
             <ActionSummary>
-              <option name="last" value="1581537221282" />
-              <option name="times" value="1" />
+              <option name="last" value="1581537653140" />
+              <option name="times" value="2" />
             </ActionSummary>
           </value>
         </entry>
@@ -1029,8 +1029,8 @@
         <entry key="com.intellij.javascript.nodejs.packageJson.notification.PackageJsonGetDependenciesAction">
           <value>
             <ActionSummary>
-              <option name="last" value="1581372650155" />
-              <option name="times" value="5" />
+              <option name="last" value="1581537722431" />
+              <option name="times" value="6" />
             </ActionSummary>
           </value>
         </entry>
