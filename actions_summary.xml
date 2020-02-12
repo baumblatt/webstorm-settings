@@ -141,8 +141,8 @@
         <entry key="CloseAllEditors">
           <value>
             <ActionSummary>
-              <option name="last" value="1581537563297" />
-              <option name="times" value="50" />
+              <option name="last" value="1581538174275" />
+              <option name="times" value="52" />
             </ActionSummary>
           </value>
         </entry>
@@ -1005,8 +1005,8 @@
         <entry key="com.intellij.ide.ReopenProjectAction">
           <value>
             <ActionSummary>
-              <option name="last" value="1581520562345" />
-              <option name="times" value="2" />
+              <option name="last" value="1581538118512" />
+              <option name="times" value="3" />
             </ActionSummary>
           </value>
         </entry>
