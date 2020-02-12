@@ -213,8 +213,8 @@
         <entry key="Docker.RemoteServers.CreateContainer">
           <value>
             <ActionSummary>
-              <option name="last" value="1581430516904" />
-              <option name="times" value="3" />
+              <option name="last" value="1581464712219" />
+              <option name="times" value="4" />
             </ActionSummary>
           </value>
         </entry>
@@ -269,8 +269,8 @@
         <entry key="EditorBackSpace">
           <value>
             <ActionSummary>
-              <option name="last" value="1581463554172" />
-              <option name="times" value="2433" />
+              <option name="last" value="1581464732613" />
+              <option name="times" value="2440" />
             </ActionSummary>
           </value>
         </entry>
@@ -685,8 +685,8 @@
         <entry key="RemoteServers.ConnectServer">
           <value>
             <ActionSummary>
-              <option name="last" value="1581464524145" />
-              <option name="times" value="20" />
+              <option name="last" value="1581464690788" />
+              <option name="times" value="22" />
             </ActionSummary>
           </value>
         </entry>
@@ -1125,8 +1125,8 @@
         <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
           <value>
             <ActionSummary>
-              <option name="last" value="1581454373472" />
-              <option name="times" value="46" />
+              <option name="last" value="1581464684588" />
+              <option name="times" value="48" />
             </ActionSummary>
           </value>
         </entry>
@@ -1213,8 +1213,8 @@
         <entry key="org.jetbrains.plugins.terminal.TerminalView$1">
           <value>
             <ActionSummary>
-              <option name="last" value="1581442777370" />
-              <option name="times" value="6" />
+              <option name="last" value="1581464779370" />
+              <option name="times" value="8" />
             </ActionSummary>
           </value>
         </entry>
