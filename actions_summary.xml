@@ -157,8 +157,8 @@
         <entry key="CodeCompletion">
           <value>
             <ActionSummary>
-              <option name="last" value="1581628323571" />
-              <option name="times" value="31" />
+              <option name="last" value="1581687033386" />
+              <option name="times" value="33" />
             </ActionSummary>
           </value>
         </entry>
@@ -245,8 +245,8 @@
         <entry key="Docker.RemoteServers.StartContainer">
           <value>
             <ActionSummary>
-              <option name="last" value="1581449403153" />
-              <option name="times" value="61" />
+              <option name="last" value="1581686914621" />
+              <option name="times" value="63" />
             </ActionSummary>
           </value>
         </entry>
@@ -269,8 +269,8 @@
         <entry key="EditorBackSpace">
           <value>
             <ActionSummary>
-              <option name="last" value="1581629518558" />
-              <option name="times" value="2899" />
+              <option name="last" value="1581687027132" />
+              <option name="times" value="2904" />
             </ActionSummary>
           </value>
         </entry>
@@ -301,8 +301,8 @@
         <entry key="EditorCopy">
           <value>
             <ActionSummary>
-              <option name="last" value="1581629321299" />
-              <option name="times" value="169" />
+              <option name="last" value="1581687044172" />
+              <option name="times" value="170" />
             </ActionSummary>
           </value>
         </entry>
@@ -349,8 +349,8 @@
         <entry key="EditorEnter">
           <value>
             <ActionSummary>
-              <option name="last" value="1581628319540" />
-              <option name="times" value="311" />
+              <option name="last" value="1581686999483" />
+              <option name="times" value="312" />
             </ActionSummary>
           </value>
         </entry>
@@ -373,8 +373,8 @@
         <entry key="EditorLeft">
           <value>
             <ActionSummary>
-              <option name="last" value="1581629479789" />
-              <option name="times" value="880" />
+              <option name="last" value="1581687050491" />
+              <option name="times" value="893" />
             </ActionSummary>
           </value>
         </entry>
@@ -389,8 +389,8 @@
         <entry key="EditorLineEnd">
           <value>
             <ActionSummary>
-              <option name="last" value="1581605865644" />
-              <option name="times" value="48" />
+              <option name="last" value="1581687029743" />
+              <option name="times" value="49" />
             </ActionSummary>
           </value>
         </entry>
@@ -421,16 +421,16 @@
         <entry key="EditorPaste">
           <value>
             <ActionSummary>
-              <option name="last" value="1581629336225" />
-              <option name="times" value="211" />
+              <option name="last" value="1581687045526" />
+              <option name="times" value="212" />
             </ActionSummary>
           </value>
         </entry>
         <entry key="EditorRight">
           <value>
             <ActionSummary>
-              <option name="last" value="1581629498641" />
-              <option name="times" value="878" />
+              <option name="last" value="1581687049981" />
+              <option name="times" value="880" />
             </ActionSummary>
           </value>
         </entry>
@@ -733,8 +733,8 @@
         <entry key="RemoteServers.ConnectServer">
           <value>
             <ActionSummary>
-              <option name="last" value="1581598988929" />
-              <option name="times" value="28" />
+              <option name="last" value="1581686898654" />
+              <option name="times" value="30" />
             </ActionSummary>
           </value>
         </entry>
@@ -813,8 +813,8 @@
         <entry key="SaveAll">
           <value>
             <ActionSummary>
-              <option name="last" value="1581629525874" />
-              <option name="times" value="559" />
+              <option name="last" value="1581687052906" />
+              <option name="times" value="560" />
             </ActionSummary>
           </value>
         </entry>
@@ -981,8 +981,8 @@
         <entry key="Vcs.UpdateProject">
           <value>
             <ActionSummary>
-              <option name="last" value="1581598662932" />
-              <option name="times" value="16" />
+              <option name="last" value="1581686946828" />
+              <option name="times" value="18" />
             </ActionSummary>
           </value>
         </entry>
@@ -1093,8 +1093,8 @@
         <entry key="com.intellij.ide.ReopenProjectAction">
           <value>
             <ActionSummary>
-              <option name="last" value="1581538382737" />
-              <option name="times" value="5" />
+              <option name="last" value="1581686890022" />
+              <option name="times" value="6" />
             </ActionSummary>
           </value>
         </entry>
@@ -1237,8 +1237,8 @@
         <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
           <value>
             <ActionSummary>
-              <option name="last" value="1581536407407" />
-              <option name="times" value="50" />
+              <option name="last" value="1581686959195" />
+              <option name="times" value="52" />
             </ActionSummary>
           </value>
         </entry>
