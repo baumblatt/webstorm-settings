@@ -277,8 +277,8 @@
         <entry key="Docker.RemoteServers.StopContainer">
           <value>
             <ActionSummary>
-              <option name="last" value="1581543326064" />
-              <option name="times" value="65" />
+              <option name="last" value="1582045420671" />
+              <option name="times" value="69" />
             </ActionSummary>
           </value>
         </entry>
@@ -909,8 +909,8 @@
         <entry key="Stop">
           <value>
             <ActionSummary>
-              <option name="last" value="1582045355648" />
-              <option name="times" value="48" />
+              <option name="last" value="1582045412709" />
+              <option name="times" value="50" />
             </ActionSummary>
           </value>
         </entry>
