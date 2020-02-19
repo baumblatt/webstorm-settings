@@ -261,8 +261,8 @@
         <entry key="Docker.RemoteServers.StartContainer">
           <value>
             <ActionSummary>
-              <option name="last" value="1581962839002" />
-              <option name="times" value="71" />
+              <option name="last" value="1582132443025" />
+              <option name="times" value="75" />
             </ActionSummary>
           </value>
         </entry>
@@ -285,8 +285,8 @@
         <entry key="EditorBackSpace">
           <value>
             <ActionSummary>
-              <option name="last" value="1582131575477" />
-              <option name="times" value="4514" />
+              <option name="last" value="1582132904438" />
+              <option name="times" value="4522" />
             </ActionSummary>
           </value>
         </entry>
@@ -333,8 +333,8 @@
         <entry key="EditorDeleteLine">
           <value>
             <ActionSummary>
-              <option name="last" value="1581973519707" />
-              <option name="times" value="135" />
+              <option name="last" value="1582132852512" />
+              <option name="times" value="136" />
             </ActionSummary>
           </value>
         </entry>
@@ -389,8 +389,8 @@
         <entry key="EditorLeft">
           <value>
             <ActionSummary>
-              <option name="last" value="1582131207841" />
-              <option name="times" value="1357" />
+              <option name="last" value="1582132470269" />
+              <option name="times" value="1359" />
             </ActionSummary>
           </value>
         </entry>
@@ -445,16 +445,16 @@
         <entry key="EditorRight">
           <value>
             <ActionSummary>
-              <option name="last" value="1582131360908" />
-              <option name="times" value="1301" />
+              <option name="last" value="1582132854230" />
+              <option name="times" value="1313" />
             </ActionSummary>
           </value>
         </entry>
         <entry key="EditorRightWithSelection">
           <value>
             <ActionSummary>
-              <option name="last" value="1581965921928" />
-              <option name="times" value="413" />
+              <option name="last" value="1582132813223" />
+              <option name="times" value="432" />
             </ActionSummary>
           </value>
         </entry>
@@ -501,8 +501,8 @@
         <entry key="EditorUp">
           <value>
             <ActionSummary>
-              <option name="last" value="1582131365717" />
-              <option name="times" value="352" />
+              <option name="last" value="1582132853640" />
+              <option name="times" value="353" />
             </ActionSummary>
           </value>
         </entry>
@@ -861,8 +861,8 @@
         <entry key="SaveAll">
           <value>
             <ActionSummary>
-              <option name="last" value="1582131576844" />
-              <option name="times" value="912" />
+              <option name="last" value="1582132905636" />
+              <option name="times" value="917" />
             </ActionSummary>
           </value>
         </entry>
@@ -1421,8 +1421,8 @@
         <entry key="org.jetbrains.plugins.terminal.TerminalView$1">
           <value>
             <ActionSummary>
-              <option name="last" value="1581464779370" />
-              <option name="times" value="8" />
+              <option name="last" value="1582132515219" />
+              <option name="times" value="10" />
             </ActionSummary>
           </value>
         </entry>
