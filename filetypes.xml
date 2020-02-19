@@ -12,9 +12,9 @@
       <mapping ext="pro" type="PLAIN_TEXT" />
       <mapping ext="xcworkspacedata" type="PLAIN_TEXT" />
       <mapping ext="lock" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <mapping pattern="test" type="TypeScript" />
       <mapping pattern="baum" type="TypeScript" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
