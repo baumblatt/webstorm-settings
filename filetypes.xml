@@ -17,6 +17,7 @@
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <mapping pattern="test" type="TypeScript" />
       <mapping pattern="baum" type="TypeScript" />
+      <mapping pattern="googleSignInReducer" type="TypeScript" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
       <removed_mapping ext="storyboard" approved="true" type="PLAIN_TEXT" />
