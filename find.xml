@@ -1,8 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Ajustes plataforma Capacitor iOS" />
-    <option name="defaultScopeName" value="Ajustes plataforma Capacitor iOS" />
-    <option name="SEARCH_SCOPE" value="Ajustes plataforma Capacitor iOS" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.ts" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.htm</mask>
@@ -19,7 +20,7 @@
     <mask>*.model.ts</mask>
     <mask>*.json</mask>
     <mask>*.html</mask>
-    <mask>*.ts</mask>
     <mask>*.tsx</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
